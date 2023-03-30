@@ -7,7 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootEcommerceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("_|_|_|_|_|  _|_|_|_|  _|      _|  _|_|_|  _|_|_|_|_| \n" +
+				"      _|    _|        _|_|    _|    _|        _|     \n" +
+				"    _|      _|_|_|    _|  _|  _|    _|        _|      \n" +
+				"  _|        _|        _|    _|_|    _|        _|      \n" +
+				"_|_|_|_|_|  _|_|_|_|  _|      _|  _|_|_|      _|      ");
 		SpringApplication.run(SpringBootEcommerceApplication.class, args);
+
 	}
 
 }
+

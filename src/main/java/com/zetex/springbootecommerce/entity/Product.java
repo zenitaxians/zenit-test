@@ -15,7 +15,7 @@ import java.util.Date;
 @Setter
 public class Product {
 
-    @Idss
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long id;
