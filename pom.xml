@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zetex</groupId>
-	<artifactId>spring-boot-ecommerce</artifactId>
+	<artifactId>ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-ecommerce</name>
 	<description>Spring Boot ecommerce project</description>
