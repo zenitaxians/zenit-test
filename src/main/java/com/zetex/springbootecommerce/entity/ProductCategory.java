@@ -1,7 +1,9 @@
 package com.zetex.springbootecommerce.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.util.Set;
 
@@ -9,6 +11,8 @@ import java.util.Set;
 @Table(name="Product_Category")
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ProductCategory {
 
     @Id
