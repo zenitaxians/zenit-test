@@ -23,6 +23,10 @@ public class ProductController {
         return "KIA WORLD!";
     }
 
+    @GetMapping("/ANA")
+    private String sayAna(){
+        return "HI ANA!";
+    }
 
 
 
