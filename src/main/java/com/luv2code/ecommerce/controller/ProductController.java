@@ -14,10 +14,10 @@ import java.util.List;
 
 public class ProductController {
 
-    @Value("${name}")
-    private String bossName;
-    @Value("${description}")//hello
-    private String bossDescription;
+//    @Value("${name}")
+//    private String bossName;
+//    @Value("${description}")//hello
+//    private String bossDescription;
 
     private final ProductService productService;
 
@@ -26,13 +26,13 @@ public class ProductController {
         this.productService = productService1;
     }
 
-    @GetMapping("/boss")
-    private String getBoss(){
-        return "Boss name is " + bossName + " and description hes a " + bossDescription;
-    }
+//    @GetMapping("/boss")
+//    private String getBoss(){
+//        return "Boss name is " + bossName + " and description hes a " + bossDescription;
+//    }
     @GetMapping("/work")
     private List<Product> sayHello(){
-        return productService.listOfProducts();
+        return productService.listOfProducts();//hello
     }
 
     @GetMapping("/job")
