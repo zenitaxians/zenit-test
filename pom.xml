@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.luv2code</groupId>
-	<artifactId>spring-boot-ecommerce</artifactId>
+	<artifactId>zenit-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-ecommerce</name>
+	<name>zenit-test</name>
 	<description>Spring Boot Ecommerce Project</description>
 
 	<properties>

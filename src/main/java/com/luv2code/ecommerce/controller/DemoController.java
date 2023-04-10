@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     private Coach myCoach;
-    @Autowired
-    public DemoController(@Qualifier("swimCoach") Coach theCoach){
-        myCoach = theCoach;
-        System.out.println("In constructor: " + getClass().getSimpleName());
-    }
+//    @Autowired
+//    public DemoController(@Qualifier("swimCoach") Coach theCoach){
+//        myCoach = theCoach;
+//        System.out.println("In constructor: " + getClass().getSimpleName());
+//    }
 
-    @GetMapping("/dailyworkout")
+    @GetMapping("/dailyworkout")//test
     public String getDailyWorkout(){
         return myCoach.getDailyWorkout();
     }
