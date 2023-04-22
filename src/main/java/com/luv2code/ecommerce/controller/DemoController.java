@@ -18,9 +18,9 @@ public class DemoController {
 
     @GetMapping("/dailyworkout")//test
     public String getDailyWorkout(){
-        //test1
-        //test2
-        //test3
+        //test - dev1
+        //test - dev1
+        //test3 - dev1
         return myCoach.getDailyWorkout();
     }
 
