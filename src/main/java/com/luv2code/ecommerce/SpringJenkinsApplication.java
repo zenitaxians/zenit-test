@@ -5,10 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class SpringBootEcommerceApplication {//testets
+public class SpringJenkinsApplication {//testets
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootEcommerceApplication.class, args);
+		System.out.println("Hello world!");
+		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
 }
