@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
+// test zenit test
 public class SpringJenkinsApplication {//testets
 
 	public static void main(String[] args) {
